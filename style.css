@@ -1,0 +1,90 @@
+.flex-slider{
+    height: 500px;
+    width: 1345px;
+    margin: auto;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+}
+
+.f1{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.f2{
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+
+.f2-main{
+    margin: auto;
+    width: 550px;
+    height: 450px;
+    color: white;
+    /* background-color: azure; */
+}
+
+.f-btn{
+    margin-top: 140px;
+    height: 50px;
+    width: 190px;
+    color: orange;
+    background-color: rgb(56, 56, 56);
+    border: 3px solid orange;
+}
+
+
+/* Slider image Height Width */
+.f-img{
+    height: 500px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width:1340px) {
+    .flex-slider{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1225px) {
+    .f2-main{
+        width: 400px;
+        margin-top: 15px;
+    }
+
+    .f-btn{
+        margin-top: 80px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .flex-slider{
+        flex-direction: column;
+        height: 970px;
+    }
+
+    .f1{
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+    
+    .f2{
+        width: 100%;
+        /* background-color: blueviolet; */
+    }
+
+}
+
+@media only screen and (max-width:405px) {
+    .f2-main{
+        width: 250px;
+        margin-top: 15px;
+    }
+
+    .f-btn{
+        margin-top: 30px;
+    }
+}
+
